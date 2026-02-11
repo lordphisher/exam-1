@@ -125,6 +125,55 @@
 .card1 p{
     margin-top: -20px;
 }
+
+    .information{
+        width: 100%;
+        height: 500px;
+        background-color: rgba(255, 247, 244, 1);
+    display: flex;    
+    }
+.projects{
+    width: 400px;
+    height: 400px;
+    /* background-color: aqua; */
+    margin-left: 85px;
+    margin-top: 80px;
+}   
+.projects p{
+    margin-left: 15px;
+} 
+.projects button{
+    color: white;
+    background-color: rgba(255, 83, 0, 1);
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    margin-left: 45px;
+}
+.numbers{
+    display: flex;
+    width: 500px;
+    /* background-color: lightgray; */
+    height: 500px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.c1{
+
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 200px;
+    height: 180px;
+    background-color:rgba(255, 255, 255, 1);
+}
+.c1 h1{
+    text-align: center;
+}
+.c1 p{
+    margin-left: 50px;
+}
 @media(max-width:430px){
     .menu p{
         display: none;
@@ -146,7 +195,7 @@
     }
     .start{
 
-        background-color: aqua;
+        /* background-color: aqua; */
         margin-top: 200px;
         width: 98%;
         height: 570px;
@@ -184,6 +233,22 @@
         margin-left: 120px;
     }
     .card1 p{
+        font-size: 35px;
         margin-left: 120px;
+    }
+    .information{
+        margin-top: 500px;
+        flex-direction: column;
+    }
+    .c1{
+        border: 2px solid lightgrey;
+        width: 100%;
+    }
+    .c1 h1{
+        font-size: 40px;
+    }
+    .c1 p{
+        margin-left: 140px;
+        font-size: 35px;
     }
 }
