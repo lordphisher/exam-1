@@ -215,7 +215,7 @@
 .blog{
     width: 100%;
     height: 600px;
-    background-color: orangered;
+    /* background-color: orangered; */
     /* display: flex; */
 }
 .blog h5{
@@ -228,19 +228,20 @@ font-family: 'Popins',sans-serif;
 .graphic-design{
     width: 390px;
     height: 300px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     margin-left: 45px;
+    box-shadow: 0px 0px 10px 2px;
 }
 .des-graph{
     width: 250px;
     height: 300px;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
 }
 .human{
     display: flex;
     width: 250px;
     height:100px;
-    background-color: lime;
+    /* background-color: lime; */
 }
 .human img{
     width: 80px;
@@ -262,6 +263,59 @@ font-family: 'Popins',sans-serif;
 .manage{
     margin-top: -320px;
     margin-left: 700px;
+}
+.contact{
+    width: 100%;
+    height: 600px;
+    /* background-color: blueviolet; */
+    display: inline-block;
+}
+.contact h4{
+    font-family: 'Popins',sans-serif;
+    margin-left:500px;
+}
+.mail{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
+    background-color: lightgrey;
+    display: flex;
+}
+.mail img{
+     width: 150px;
+}
+.services{
+    /* background-color: aqua; */
+    width: 950px;
+    display: flex;
+}
+.message{
+    margin-top: -200px;
+    width: 950px;
+    height:350px;
+    background-color:red ;
+}
+.message h1{
+    text-align: center;
+}
+.info{
+    margin-left: 125px;
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info input{
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 30px;
+    width: 200px;
+
+}
+#mobile{
+    margin-top: -100px;
 }
 @media(max-width:430px){
     .menu p{
@@ -399,5 +453,9 @@ margin-top: 200px;
     }
     .blog{
         display: none;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
     }
 }
