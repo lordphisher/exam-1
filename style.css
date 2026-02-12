@@ -174,6 +174,44 @@
 .c1 p{
     margin-left: 50px;
 }
+.people{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 550px;
+}
+.people h6{
+    font-size: 20px;
+    text-align: center;
+}
+.people h1{
+    text-align: center;
+}
+.employers{
+    height: 400px;
+    width: 90%;
+    margin-left: 20px;
+    /* background-color: brown; */
+    display: flex;
+    /* justify-content: space-around; */
+}
+.emp1{
+    box-shadow: 0px 0px 10px 5px;
+    width: 290px;
+    height: 350px;
+    /* background-color: blueviolet; */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.emp1 h2{
+    text-align: center;
+    font-family: 'Popins',sans-serif;
+}
+
+.emp1 p{
+    font-family:'Popins',sans-serif;
+    margin-top: -15px;
+    margin-left: 90px;
+}
 @media(max-width:430px){
     .menu p{
         display: none;
@@ -208,6 +246,9 @@
     .digital h1{
         margin-top: 130px;
     }
+    .digital p{
+        font-size: 25px;
+    }
     .digital{
         width:100%;
     }
@@ -218,6 +259,9 @@
     }
     .idea-making{
         flex-direction: column;
+    }
+    .idea-making p{
+        font-size: 25px;
     }
     .cards{
         margin-top: -50px;
@@ -237,8 +281,15 @@
         margin-left: 120px;
     }
     .information{
-        margin-top: 500px;
+        margin-top: 600px;
         flex-direction: column;
+    }
+    .projects p{
+        font-size: 20px;
+
+    }
+    .information p{
+        font-size: 18px;
     }
     .c1{
         border: 2px solid lightgrey;
@@ -250,5 +301,43 @@
     .c1 p{
         margin-left: 140px;
         font-size: 35px;
+    }
+    .people{
+        flex-direction: column;
+    }
+    .ig2,.ig3,.ig4{
+        display: none;
+    }
+    .emp2{
+        display: none;
+    }
+    .emp3{
+        display: none;
+    }
+    .emp4{
+        display: none;
+    }
+    .employers{
+        margin-top: 640px;
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .emmn{
+     width: 90%;
+    }
+    .emmn img{
+        width: 100%;
+
+    }
+    .emmn p{
+        font-size: 25px;
+        margin-left: 150px;
+    }
+
+    .emp1{
+        margin-bottom: 100px;
+    }
+    .numbers{
+margin-top: 200px;
     }
 }
