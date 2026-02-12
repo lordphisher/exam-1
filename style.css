@@ -212,6 +212,57 @@
     margin-top: -15px;
     margin-left: 90px;
 }
+.blog{
+    width: 100%;
+    height: 600px;
+    background-color: orangered;
+    /* display: flex; */
+}
+.blog h5{
+font-family: 'Popins',sans-serif;
+}
+.blog h2{
+    text-align: center;
+    font-family: 'Popins',sans-serif;
+}
+.graphic-design{
+    width: 390px;
+    height: 300px;
+    background-color: blueviolet;
+    margin-left: 45px;
+}
+.des-graph{
+    width: 250px;
+    height: 300px;
+    background-color: lightgrey;
+}
+.human{
+    display: flex;
+    width: 250px;
+    height:100px;
+    background-color: lime;
+}
+.human img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.date{
+    margin-top: 55px;
+    margin-left: -130px;
+}
+.computer{
+    margin-bottom: 140px;
+    margin-top: -400px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-left: 280px;
+}
+.manage{
+    margin-top: -320px;
+    margin-left: 700px;
+}
 @media(max-width:430px){
     .menu p{
         display: none;
@@ -339,5 +390,14 @@
     }
     .numbers{
 margin-top: 200px;
+    }
+    .graphic-design {
+        display: none;
+    }
+    .manage{
+        display: none;
+    }
+    .blog{
+        display: none;
     }
 }
